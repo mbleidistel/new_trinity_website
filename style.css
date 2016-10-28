@@ -10,6 +10,7 @@ body{
     overflow-x:hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+	min-height: 100%;
 }
 a:hover{text-decoration: none; cursor:pointer;}
 
@@ -19,6 +20,20 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* = Blocs
 -------------------------------------------------------------- */
+
+#bloc-0
+{
+	z-index: 1 !important;
+	position: fixed !important;
+	top: 0px !important;
+}
+
+#bloc-5
+{
+	z-index: 1 !important;
+	position: fixed !important;
+	bottom: 0px !important;
+}
 
 .bloc{
 	width:100%;
