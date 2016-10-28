@@ -28,11 +28,24 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	top: 0px !important;
 }
 
+#bloc-1
+{
+	position: relative;
+	top: 50px;
+}
+
 #bloc-5
 {
 	z-index: 1 !important;
 	position: fixed !important;
 	bottom: 0px !important;
+}
+
+#bloc-group .home-page
+{
+	position: relative;
+	z-index: 0;
+	bottom: -50px;
 }
 
 .bloc{
