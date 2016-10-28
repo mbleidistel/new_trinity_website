@@ -28,7 +28,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 	top: 0px !important;
 }
 
-#bloc-1
+.page-container
+{
+	position: relative;
+	top: 50px;
+}
+
+.rel50pxTop
 {
 	position: relative;
 	top: 50px;
